@@ -9,3 +9,17 @@ Files
 •	store_sales.xlsx - historical data including Sales of all the stores
 •	temperature.xlsx – month wise average temperature of the country taken over last 5 years
 •	macro_economic.xlsx -a file containing year wise, macroeconomic information like GDP of the country, income per capita, inflation related data etc.
+
+Data fields of store_sales input file
+Most of the fields are self-explanatory. The following are descriptions for those that aren't.
+•	date - date
+•	day - day
+•	month - month
+•	year - year
+•	day_of_week – day of the week
+•	open: number of stores open on a given day
+•	sales: the turnover of all the open shops for a given day (this is what you are predicting)
+•	customers: the number of customers on a given day
+•	promo: if promotion was given on that day
+•	state_holiday: ‘1’ indicates State holiday
+•	school_holiday: ‘1’ indicates School holiday
